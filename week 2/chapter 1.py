@@ -1,0 +1,13 @@
+minutes = 42
+seconds = 42
+totalseconds = minutes*60+seconds
+print("Total seconds:",totalseconds)
+mile = 1.61
+km = 10
+totalmiles = km/mile
+print("Total miles 10:",totalmiles)
+pace = totalseconds / totalmiles
+h = totalseconds / 3600
+print("Average pace:", pace)
+speed = totalmiles / h
+print("Average speed:", speed, "mph")
